@@ -1,8 +1,8 @@
 ---
-title: "Presentation title"
+title: "2D Turbulence: Dual Cascades"
 institute: "University of Dundee"
-date: 04-11-2024
-author: "J. Smith"
+date: 11-11-2024
+author: "A. Law"
 format: 
   revealjs:
     html-math-method: mathjax
@@ -14,9 +14,20 @@ format:
 
 
 
-# Background
+## Turbulence and Navier Stokes in 2 dimensions
 
-# Importance of topic
+  Navier stokes equation:
+  $$
+  \frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} = -\frac{1}{\rho} \nabla p + \nu \nabla^2 \mathbf{u} + \mathbf{f}
+  $$
+  2 dimensional vorticity equation:
+  $$
+  \frac{\partial \omega}{\partial t} + \mathbf{u} \cdot \nabla \omega = \nu \nabla^2 \omega
+  $$
+
+# Forward energy cascade
+::: {layout="[[60,-5,35], [100]]" layout-valign="bottom"}
+![Evolution of eddies in 3D](Forward_cascade.jpg){fig-alt="diagram displaying the evolution of eddies in a 3 dimensional systems as the energy cascades from large to small scales."}
 
 # Aims
 
